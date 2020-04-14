@@ -17,4 +17,8 @@ module ApplicationHelper
      content_tag(:p, "Thanks for visiting me from #{session[:source]} and you're on the #{layout_name} layout.", class: "source-greeting")
     end 
   end
+
+  def copyright_generator 
+    ShunshunViewTool::Renderer.copyright('Shunshun Lyu', 'All rights reserved')
+  end
 end
