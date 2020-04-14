@@ -14,18 +14,11 @@
     <p class="notice"><%= notice %></p>
     <p class="alert"><%= alert %></p>
 
-
-    <!-- Check if current_user is of class User -->
-    <% if current_user.is_a?(User) %>
-      <%= link_to "Logout", destroy_user_session_path, method: :delete %>
-    <% else %>
-      <%= link_to "Register", new_user_registration_path%>
-      <%= link_to "Login", new_user_session_path %>
-    <% end %>
-    <%= yield %>
-
     <%= render "shared/nav", location: 'top' %>
+    
+    <%= login_helper %>
 
+    <%= yield %>
     <% if session[:source] %>
     <p>Thanks for visiting me from <%= session[:source] %></p>
     <% end %>
