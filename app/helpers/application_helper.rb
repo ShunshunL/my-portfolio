@@ -10,4 +10,11 @@ module ApplicationHelper
       (link_to "Login", new_user_session_path)
     end 
   end
+  
+  # seems like content_tag is better fit for view helper -- cleaner
+  def source_helper(layout_name)
+    if session[:source] 
+     content_tag(:p, "Thanks for visiting me from #{session[:source]} and you're on the #{layout_name} layout.", class: "source-greeting")
+    end 
+  end
 end
