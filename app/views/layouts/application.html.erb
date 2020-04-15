@@ -16,12 +16,12 @@
 
     <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
 
-      <p class="notice"><%= notice %></p>
-      <p class="alert"><%= alert %></p>
-
-      <%= render "shared/nav" %>
-      
-      <%= login_helper %>
+      <header class="masthead mb-auto">    
+        <div class="inner"> 
+          <h3 class="masthead-brand">Shunshun Lyu</h3>
+          <%= render "shared/nav" %>
+          </div>
+      </header>
 
       <%= yield %>
 

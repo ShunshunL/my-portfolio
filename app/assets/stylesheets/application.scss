@@ -41,7 +41,12 @@ body {
 }
 
 .cover-container {
-  max-width: 42em;
+  max-width: 60em;
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 2rem;
 }
 
 /*
@@ -61,6 +66,7 @@ body {
 
 .masthead-brand {
   margin-bottom: 0;
+  margin-right: 40px;
 }
 
 .nav-masthead .nav-link {
@@ -108,6 +114,16 @@ body {
 /*
  * Footer
  */
- .mastfoot {
+.mastfoot {
   color: #fff;
+}
+
+
+.card-block {
+  color: black;
+
+}
+
+.auth-links a {
+  color: black;
 }

@@ -1,9 +1,9 @@
 <h1>Hi, <%= current_user.first_name %></h1>
 
 <main role="main" class="inner cover">
-  <h1 class="cover-heading">Cover your page.</h1>
-  <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
+  <h1 class="cover-heading">Welcome.</h1>
+  <p class="lead">TODO: Short para about myself.</p>
   <p class="lead">
-    <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
+    <%= link_to "About Me", about_me_path, class: "btn btn-lg btn-secondary" %>
   </p>
 </main>
