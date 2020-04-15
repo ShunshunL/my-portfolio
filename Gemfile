@@ -50,3 +50,4 @@ gem 'bootstrap', '~> 4.4.1'
 gem 'jquery-rails'
 
 gem 'shunshun_view_tool', git: 'https://github.com/ShunshunL/shunshun_view_tool'
+gem 'petergate', '~> 2.0', '>= 2.0.1'
