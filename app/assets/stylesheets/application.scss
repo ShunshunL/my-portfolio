@@ -64,9 +64,10 @@ body {
   margin-bottom: 2rem;
 }
 
-.masthead-brand {
-  margin-bottom: 0;
-  margin-right: 40px;
+.my-name {
+  text-align: left;
+  float: left;
+  margin-right: 80px;
 }
 
 .nav-masthead .nav-link {
@@ -133,3 +134,8 @@ body {
   text-align: right;
 }
 
+.login > .card {
+  width: 22rem;
+  margin: 0 auto;
+  float: none;
+}
