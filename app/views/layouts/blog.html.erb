@@ -29,7 +29,7 @@
           <div class="col-lg-8 col-md-10 mx-auto">
             <div class="site-heading">
               <h1>Shunshun's Blog</h1>
-              <span class="subheading">A Blog Theme by Start Bootstrap</span>
+              <span class="subheading">TODO: ADD SUBHEADING</span>
               <% if logged_in?(:site_admin) %>
                 <button class="btn btn-light"><%= link_to 'New Blog', new_blog_path %></button>
               <% end %>
@@ -51,7 +51,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">                                             
-            <p class="copyright text-muted">Copyright &copy; Your Website 2019</p>
+            <p class="copyright text-muted"><%= copyright_generator %></p>
           </div>
         </div>
       </div>
