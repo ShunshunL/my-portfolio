@@ -11,7 +11,7 @@ In order to gain admin status to change blogs, login as:
 
 #### Hardcoding: 
 
-After `rails s` in terminal, go to localhost:3000 in browser and that will take you to the home page. 
+Fork and clone this repo. After typing `rails s` in terminal, go to localhost:3000 in browser and that will take you to the home page. 
 The nav bar should do take you to different pages after that. 
 
 
