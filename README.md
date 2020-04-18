@@ -4,10 +4,6 @@
 
 [Click Here](https://shunshun-portfolio.herokuapp.com/)
 
-In order to gain admin status to change blogs, login as:
-
-### username: test@test.com 
-### password: 123456
 
 #### Hardcoding: 
 
