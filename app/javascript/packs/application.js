@@ -6,9 +6,12 @@ require("bootstrap")
 require ("jquery")
 require("packs/custom")
 require("@rails/ujs").start()
+//= require jquery-ui
+require("packs/htmlsortable")
 require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
+
 
 
 
