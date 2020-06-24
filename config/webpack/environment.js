@@ -8,6 +8,11 @@ environment.plugins.append('Provide',
     Popper: ['popper.js', 'default']
   })
 )
+const aliasConfig = {
+  'jquery': 'jquery-ui-dist/external/jquery/jquery.js',
+  'jquery-ui': 'jquery-ui-dist/jquery-ui.js'
+};
+environment.config.set('resolve.alias', aliasConfig);
 environment.loaders.prepend('coffee', coffee)
 module.exports = environment
 
