@@ -7,10 +7,11 @@ require ("jquery")
 require("packs/custom")
 require("@rails/ujs").start()
 require("jquery-ui")
+require("packs/htmlsortable")
 $(function(){
   $('.sortable').sortable();
 });
-require("packs/htmlsortable")
+require("packs/cocoon")
 require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
