@@ -54,5 +54,6 @@ gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
 gem 'carrierwave', '~> 2.0'
 gem "mini_magick"
 gem 'carrierwave-aws'
+gem 'dotenv-rails', '~> 2.1', '>= 2.1.1'
 
 ruby '2.6.1'
