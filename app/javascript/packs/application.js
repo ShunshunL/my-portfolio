@@ -11,7 +11,6 @@ require("packs/htmlsortable")
 $(function(){
   $('.sortable').sortable();
 });
-require("packs/cocoon")
 require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")

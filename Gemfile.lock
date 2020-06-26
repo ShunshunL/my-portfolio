@@ -96,8 +96,7 @@ GEM
     carrierwave-aws (1.5.0)
       aws-sdk-s3 (~> 1.0)
       carrierwave (~> 2.0)
-    cocoon (1.2.14)
-    coderay (1.1.2)
+    coderay (1.1.3)
     concurrent-ruby (1.1.6)
     crass (1.0.6)
     devise (4.7.1)
@@ -209,6 +208,7 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
+    redcarpet (3.5.0)
     responders (3.0.0)
       actionpack (>= 5.0)
       railties (>= 5.0)
@@ -268,7 +268,6 @@ DEPENDENCIES
   byebug
   carrierwave (~> 2.0)
   carrierwave-aws
-  cocoon
   devise (~> 4.7, >= 4.7.1)
   dotenv-rails (~> 2.1, >= 2.1.1)
   font-awesome-rails (~> 4.7, >= 4.7.0.5)
@@ -283,6 +282,7 @@ DEPENDENCIES
   pry-byebug
   puma (~> 4.1)
   rails (~> 6.0.2, >= 6.0.2.2)
+  redcarpet
   sass-rails (>= 6)
   shunshun_view_tool!
   spring
