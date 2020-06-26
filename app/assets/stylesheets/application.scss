@@ -62,6 +62,7 @@ body {
 
 .masthead {
   margin-bottom: 2rem;
+  width: 60vw;
 }
 
 .my-name {
@@ -70,13 +71,6 @@ body {
   margin-right: 80px;
 }
 
-.nav-masthead .nav-link {
-  padding: .25rem 0;
-  font-weight: 700;
-  color: rgba(255, 255, 255, .5);
-  background-color: transparent;
-  border-bottom: .25rem solid transparent;
-}
 
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
