@@ -1,7 +1,12 @@
 <div class="col-lg-8 col-md-10 mx-auto">
   <h1><%= @blog.title %></h1>
+  <button type="button" class="btn btn-light">
+    <%= link_to " View All Blogs", blogs_path, class: "breadcrumb-item" %>
+  </button>
   <% if logged_in?(:site_admin)%>
-    <%= link_to 'Edit', edit_blog_path(@blog) %>
+    <button type="button" class="btn btn-light">
+      <%= link_to 'Edit', edit_blog_path(@blog) %>
+    </button>
   <% end %>
   <p>
     <%= markdown(@blog.body) %>
