@@ -65,8 +65,8 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   border-bottom: .25rem solid transparent;
 }
 
-.masthead {
-  margin-bottom: 2rem;
+header.masthead {
+  margin-bottom: 1rem;
   width: 60vw;
 }
 
@@ -162,7 +162,8 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 }
 
 .about-me {
-  margin-bottom: 2.5rem;
+  margin-top: -7rem;
+  margin-bottom: 1rem;
 }
 
 .col-md-4 > img {
