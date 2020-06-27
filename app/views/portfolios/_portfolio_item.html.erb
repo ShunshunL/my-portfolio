@@ -1,7 +1,7 @@
 <div class="row align-items-center no-gutters mb-4 mb-lg-5" data-id="<%= portfolio_item.id %>">
   <div class="col-xl-8 col-lg-7">
     <% if portfolio_item.thumb_image != nil %>
-      <%= image_tag portfolio_item.thumb_image.to_s, class: 'img-fluid mb-3 mb-lg-0' %>
+      <%= image_tag portfolio_item.thumb_image.to_s, width: '100%', class: 'img-fluid mb-3 mb-lg-0' %>
     <% end %>
   </div>
   <div class="col-xl-4 col-lg-5">
