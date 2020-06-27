@@ -56,5 +56,6 @@ gem "mini_magick"
 gem 'carrierwave-aws'
 gem 'dotenv-rails', '~> 2.1', '>= 2.1.1'
 gem 'redcarpet'
+gem 'cocoon', '~> 1.2', '>= 1.2.14'
 
 ruby '2.6.1'

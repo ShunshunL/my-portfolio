@@ -19,7 +19,6 @@ class PortfoliosController < ApplicationController
     @portfolio_item = Portfolio.new(portfolio_params)
 
     respond_to do |format|
-      byebug
       if @portfolio_item.save
         format.html { redirect_to portfolios_path, notice: 'Your portfolio item is now live.' }
       else
@@ -29,11 +28,11 @@ class PortfoliosController < ApplicationController
   end
 
   def edit
-    3.times { @portfolio_item.technologies.build }
   end
 
   def update
     respond_to do |format|
+      byebug
       if @portfolio_item.update(portfolio_params)
         format.html { redirect_to portfolios_path, notice: 'The record successfully updated.' }
       else
@@ -63,7 +62,7 @@ class PortfoliosController < ApplicationController
                                       :body,
                                       :main_image,
                                       :thumb_image,
-                                      technologies_attributes: [:name]
+                                      technologies_attributes: [:name, :id, :_destroy]
                                      )
   end
 

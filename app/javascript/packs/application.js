@@ -6,6 +6,7 @@ require("bootstrap")
 require ("jquery")
 require("packs/custom")
 require("@rails/ujs").start()
+require('src/cocoon')
 require("jquery-ui")
 require("packs/htmlsortable")
 $(function(){
