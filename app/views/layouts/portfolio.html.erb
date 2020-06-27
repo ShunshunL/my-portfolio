@@ -7,7 +7,7 @@
     <%= csrf_meta_tags %>
     <meta name="keywords" content="<%= @seo_keywords %>" />
     <%= csp_meta_tag %>
-
+    <%= favicon_link_tag 'favicon.ico' %>
     <%= stylesheet_link_tag 'portfolios', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
 
@@ -18,17 +18,6 @@
 
   <body id="page-top">
   
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light navbar-transparent">
-      <a class="navbar-brand name">Shunshun Lyu</a>
-      <div class="navbar-nav topnav-right">
-        <%= link_to "Home", root_path, class: "choice nav-link active nav-item" %>
-        <%= link_to "About", about_me_path, class: "choice nav-link nav-item" %>
-        <%= link_to "Contact", contact_path, class: "choice nav-link nav-item" %>
-        <%= link_to "Blog", blogs_path, class: "choice nav-link nav-item" %>
-        <%= link_to "Portfolio", portfolios_path, class: "choice nav-link nav-item" %>
-        <%= login_helper('choice nav-link nav-item') %>
-      </div>
-    </nav>
 
     <%= render 'shared/portfolio_masthead' %>
 
