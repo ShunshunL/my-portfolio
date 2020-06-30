@@ -6,7 +6,7 @@
   </div>
   <div class="col-xl-4 col-lg-5">
     <div class="featured-text text-center text-lg-left">
-      <h4><%= link_to portfolio_item.title, portfolio_show_path(portfolio_item) %></h4>
+      <h4><%= link_to portfolio_item.title, portfolio_show_path(portfolio_item, anchor: "portfolio-show-item") %></h4>
       <p class="text-black-50 mb-0"><%= portfolio_item.subtitle %></p>
     </div>
   </div>
