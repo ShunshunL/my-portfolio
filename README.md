@@ -2,7 +2,7 @@
 
 > This is my portfolio that I build using Ruby on Rails 6.
 
-[Click Here](https://shunshun-portfolio.herokuapp.com/)
+[Click Here](https://www.shunshunlyu.com)
 
 
 #### Hardcoding: 
